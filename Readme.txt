@@ -1,4 +1,4 @@
 studentID : 2013110214
 StudentName : kanokphon singphu
-DatetoStudy : 24-June-2023
-ClassTopic : Basic Javascript PartI
+DatetoStudy : 22-July-2023
+ClassTopic :  React Native Component, Part II
