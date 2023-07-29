@@ -1,9 +1,10 @@
-import { StyleSheet, Text, View, Button,useState } from 'react-native'
+import { StyleSheet, Text, View, Button,TextInput} from 'react-native'
 import React from 'react'
+import { useState } from 'react';
 
 const Login = () => {
-    const [textInputName,setTextInputName] = useState('')
-    const [textInputEmail,setTextInputEmail] = useState('')
+    const [textInputName,setTextInputName] = useState('');
+    const [textInputEmail,setTextInputEmail] = useState('');
 
     const checkTextInput = () => {
 
@@ -16,7 +17,7 @@ const Login = () => {
         }
         //check for the Email TextInput
         if(!textInputEmail.trim()){
-            alert('Please Enter Name');
+            alert('Please Enter Email');
             return;
         }
         
