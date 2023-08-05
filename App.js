@@ -1,40 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Cat from './components/Cat';
-import Counter from './components/Counter';
-import MyInput from './components/MyInput';
-import IncrementCounter from './components/IncrementCounter';
-import Form from './components/Form';
-import Login from './components/Login';
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import TouchableExample from './components/TouchableExample'
 
-export default function App() {
+const App = () => {
   return (
-    
     <View style={styles.container}>
-      {/* <Counter/> */}
-      {/* <MyInput/> */}
-      {/* <IncrementCounter/> */}
-        {/* <Form/>   */}
-      <Login/> 
+      <TouchableExample/>
     </View>
-  );
-
-
-  
-
+  )
 }
+
+export default App
+
 const styles = StyleSheet.create({
 
   container:{
 
-     flex:1,  
+    flex:1,  
 
-     justifyContent:'center',    
-
-     alignItems:'center'  
-
-  }
-
- })
+    justifyContent:'center',    
 
 
+ }
+})

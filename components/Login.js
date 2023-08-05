@@ -2,8 +2,8 @@ import { StyleSheet, Text, View, Button,useState } from 'react-native'
 import React from 'react'
 
 const Login = () => {
-    const [textInputName,setTextInputName] = useState('')
-    const [textInputEmail,setTextInputEmail] = useState('')
+    const [textInputName,setTextInputName] = useState('');
+    const [textInputEmail,setTextInputEmail] = useState('');
 
     const checkTextInput = () => {
 
