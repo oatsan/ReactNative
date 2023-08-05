@@ -21,7 +21,7 @@ const TouchableExample = () => {
 
       <TouchableHighlight
       style = {styles.button}
-      onPress={onPress}
+      onPress={()=>{setCount(count-1)}}
       >
             <Text>TouchableOpacity</Text>
       </TouchableHighlight>
