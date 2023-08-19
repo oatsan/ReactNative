@@ -4,6 +4,7 @@ import TouchableExample from './components/TouchableExample'
 import TouchablePractice from './components/TouchablePractice'
 import Example_useEffect from './components/Example_useEffect'
 import UseEffectFlatList from './components/UseEffectFlatList'
+import RandomUsersScreen from './components/RandomUsersScreen'
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       {/* <TouchableExample/>  */}
        {/* <TouchablePractice/>  */}
        {/* <Example_useEffect/> */}
-       <UseEffectFlatList/>
+       {/* <UseEffectFlatList/> */}
+       <RandomUsersScreen/>
     </View>
   )
 }
@@ -28,4 +30,4 @@ const styles = StyleSheet.create({
 
 
  }
-})
+}) 
